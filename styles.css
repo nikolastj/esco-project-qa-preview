@@ -140,7 +140,6 @@ body {
   box-shadow: var(--shadow);
 }
 .meta .name { font-weight: 700; font-size: 1.05em; }
-.timestamp { color: var(--muted); font-size: 0.9em; }
 
 .qa-card__body .question {
   margin: 10px 0 6px;

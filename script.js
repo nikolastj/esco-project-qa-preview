@@ -53,7 +53,6 @@ async function loadQA() {
     for (const item of items) {
       const node = tmpl.content.cloneNode(true);
       const nameEl = node.querySelector('.name');
-    //   const timeEl = node.querySelector('.timestamp');
       const qEl = node.querySelector('.question');
       const aEl = node.querySelector('.answer');
 
@@ -61,19 +60,6 @@ async function loadQA() {
       qEl.textContent = item.question ?? '';
       aEl.textContent = item.answer ?? '';
 
-    //   if (item.timestamp) {
-    //     const date = new Date(item.timestamp);
-    //     timeEl.setAttribute('datetime', date.toISOString());
-    //     timeEl.textContent = date.toLocaleString(undefined, {
-    //       year: 'numeric',
-    //       month: 'short',
-    //       day: '2-digit',
-    //       hour: '2-digit',
-    //       minute: '2-digit'
-    //     });
-    //   } else {
-    //     timeEl.remove();
-    //   }
 
       listEl.appendChild(node);
     }

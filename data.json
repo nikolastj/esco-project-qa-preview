@@ -1,38 +1,32 @@
 [
   {
     "name": "Mila Jovanović",
-    "question": "How can I structure a scalable front‑end for a growing SPA?",
-    "answer": "Start with feature‑based folders, shared UI primitives, strict typing, and a state strategy (signals/Rx/store). Add lint rules and CI to enforce boundaries. Prefer composition over inheritance.",
-    "timestamp": "2025-08-05T10:24:00Z"
+    "question": "How can I structure a scalable frontend for a growing SPA?",
+    "answer": "Start with featurebased folders, shared UI primitives, strict typing, and a state strategy (signals/Rx/store). Add lint rules and CI to enforce boundaries. Prefer composition over inheritance."
   },
   {
     "name": "André Silva",
-    "question": "What’s the simplest way to add dark mode?",
-    "answer": "Use CSS variables with prefers‑color‑scheme, then allow a manual override stored in localStorage. Toggle by swapping a data attribute on <html>.",
-    "timestamp": "2025-08-06T08:10:00Z"
+    "question": "Whats the simplest way to add dark mode?",
+    "answer": "Use CSS variables with preferscolorscheme, then allow a manual override stored in localStorage. Toggle by swapping a data attribute on <html>."
   },
   {
     "name": "Sara Petrović",
     "question": "Should I debounce or throttle search input?",
-    "answer": "Debounce for user typing (e.g., 250–400 ms). Throttle for continuous events like scroll or resize. Measure and adjust.",
-    "timestamp": "2025-08-07T14:31:00Z"
+    "answer": "Debounce for user typing (e.g., 250400 ms). Throttle for continuous events like scroll or resize. Measure and adjust."
   },
   {
     "name": "Kai Müller",
     "question": "How big should base font be for mobile readability?",
-    "answer": "Aim for 17–18px base with 1.5+ line height; bump headings via clamp(). Always test on real devices.",
-    "timestamp": "2025-08-08T09:12:00Z"
+    "answer": "Aim for 1718px base with 1.5+ line height; bump headings via clamp(). Always test on real devices."
   },
   {
     "name": "Anonymous",
     "question": "How do I keep API keys out of the repo?",
-    "answer": "Use environment variables, secret managers, and .env files ignored by VCS. Never bundle secrets into client assets.",
-    "timestamp": "2025-08-09T18:00:00Z"
+    "answer": "Use environment variables, secret managers, and .env files ignored by VCS. Never bundle secrets into client assets."
   },
   {
     "name": "Jovan",
     "question": "Can I host this as a simple static site?",
-    "answer": "Yes. Put these four files on any static host (S3+CloudFront, Netlify, Vercel, GitHub Pages). Ensure the server serves data.json with correct MIME and CORS if needed.",
-    "timestamp": "2025-08-10T12:45:00Z"
+    "answer": "Yes. Put these four files on any static host (S3+CloudFront, Netlify, Vercel, GitHub Pages). Ensure the server serves data.json with correct MIME and CORS if needed."
   }
 ]
