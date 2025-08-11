@@ -17,6 +17,6 @@
   {
     "name": "Sasa Dzuklevski",
     "question": "Da li se mora čekati odluka gradskog veća za plaćanje grejanja po utrošku, jer trenutno ceo grad daljinsko grejanje plaća po kvadraturi stana, odnosno po m²?",
-    "answer": ""
+    "answer": "Nije tačno da ceo Novi Sad grejanje plaća isključivo po m². U gradu već postoji praksa (pretežno u novijim zgradama) da se grejanje naplaćuje **kombinovano: fiksni deo (instalisana snaga, kW) + varijabilni deo po utrošku (kWh)**, kada su u podstanici ugrađeni kalorimetar, a po stanovima razdelnici/merači.\n\nZa zgrade obuhvaćene ESCO projektom **ne čeka se posebna nova opšta odluka Gradskog veća** da bi se primenio obračun po utrošku u konkretnoj zgradi; primenjuju se **važeća gradska Odluka o proizvodnji, distribuciji i snabdevanju toplotnom energijom** i **aktuelnim cenovnikom Toplane**. Ključno je da zgrada ispuni tehničke i organizacione uslove (merno mesto u podstanici, pravila raspodele/delovnik troškova, razdelnici gde je primenljivo) u skladu sa opštom regulativom.\n\nO promenama cena i sistemskim pitanjima odlučuje Grad, dok Toplana sprovodi obračun prema usvojenim tarifnim elementima."
   }
 ]
