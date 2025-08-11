@@ -58,7 +58,12 @@ async function loadQA() {
 
       nameEl.textContent = item.name ?? 'Anonymous';
       qEl.textContent = item.question ?? '';
-      aEl.textContent = item.answer ?? '';
+      
+      // Convert markdown-style formatting: \n to <br> and **text** to <strong>text</strong>
+      const answerText = (item.answer ?? '')
+        .replace(/\n/g, '<br>')
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+      aEl.innerHTML = answerText;
 
 
       listEl.appendChild(node);

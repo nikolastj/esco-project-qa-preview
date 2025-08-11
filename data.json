@@ -1,32 +1,22 @@
 [
   {
-    "name": "Mila Jovanović",
-    "question": "How can I structure a scalable front-end for a growing SPA?",
-    "answer": "Start with feature based folders, shared UI primitives, strict typing, and a state strategy (signals/Rx/store). Add lint rules and CI to enforce boundaries. Prefer composition over inheritance."
+    "name": "Black Mint House",
+    "question": "Kada bi ušli u radove i kada bi bili gotovi?",
+    "answer": "Precizan datum početka radova se ne zna u ovoj fazi – biće utvrđen tek nakon izbora izvođača i potpisivanja ugovora."
   },
   {
-    "name": "André Silva",
-    "question": "What's the simplest way to add dark mode?",
-    "answer": "Use CSS variables with prefers-color-scheme, then allow a manual override stored in localStorage. Toggle by swapping a data attribute on <html>."
+    "name": "Voislav Marković",
+    "question": "Koja je tačno mesečna suma koju bi svaki stan morao da plaća narednih 10 godina?",
+    "answer": "Nije lično zaduženje.\nVlasnici se ne zadužuju direktno; otplata ide zajednički, preko objedinjene naplate ili preko JKP koje odredi grad.\n**Iznos zavisi od kvadrature stana i obračunava se po m² grejne površine.**\n\n● Trenutno plaćanje (paušal): 127,52 RSD/m² mesečno\n● Posle mera projekta: 55,15 RSD/m² mesečno\n● Mesečna rata investicije: 47,73 RSD/m² mesečno\n● Tokom otplate (grejanje + rata): 120,09 RSD/m² mesečno\n\n**Primer za stan od 50 m²:**\n- Trenutno plaćanje: **6.376 RSD mesečno**\n- Posle mera projekta: **2.758 RSD mesečno**\n- Mesečna rata investicije: **2.386,5 RSD mesečno**\n- Tokom otplate (grejanje + rata): **6.004,5 RSD mesečno**\n\n**Osnovna ideja projekta je da zbir troškova grejanja i otplate investicije bude niži nego što su troškovi grejanja bili pre projekta ili minimalno iznad tog iznosa.**\n\nNakon otplate investicije, troškovi su znatno manji nego u scenariju bez realizacije projekta."
   },
   {
-    "name": "Sara Petrović",
-    "question": "Should I debounce or throttle search input?",
-    "answer": "Debounce for user typing (e.g., 250-400 ms). Throttle for continuous events like scroll or resize. Measure and adjust."
+    "name": "Snezana Adamov",
+    "question": "Ako uspemo da dobijemo sredstva za projekat kada bismo mogli da se prijavimo za izolaciju na spoljašnjoj fasadi zida?",
+    "answer": "Ako projekat bude odobren, termoizolacija spoljne fasade se radi u okviru istog ugovora i termina kada i ostali radovi, a ne kroz posebnu prijavu.\nDakle, već je deo kompletnog paketa mera energetske efikasnosti u okviru Javnog ESCO projekta.\n\nTo znači:\n\n**Ne prijavljujete se posebno samo za izolaciju spoljnog zida** – učešćem u projektu prihvatate ceo paket radova koji uključuje termoizolaciju fasade, krova, međuspratnih konstrukcija, zamenu zajedničke stolarije, ugradnju ventila i delitelja troškova.\n\nAko zgrada dobije sredstva i prođe rangiranje, izvođač radova se bira putem tendera i tada se definiše rok izvođenja svih radova, uključujući i fasadu."
   },
   {
-    "name": "Kai Müller",
-    "question": "How big should base font be for mobile readability?",
-    "answer": "Aim for 17-18px base with 1.5+ line height; bump headings via clamp(). Always test on real devices."
-  },
-  {
-    "name": "Anonymous",
-    "question": "How do I keep API keys out of the repo?",
-    "answer": "Use environment variables, secret managers, and .env files ignored by VCS. Never bundle secrets into client assets."
-  },
-  {
-    "name": "Jovan",
-    "question": "Can I host this as a simple static site?",
-    "answer": "Yes. Put these four files on any static host (S3+CloudFront, Netlify, Vercel, GitHub Pages). Ensure the server serves data.json with correct MIME and CORS if needed."
+    "name": "Sasa Dzuklevski",
+    "question": "Da li se mora čekati odluka gradskog veća za plaćanje grejanja po utrošku, jer trenutno ceo grad daljinsko grejanje plaća po kvadraturi stana, odnosno po m²?",
+    "answer": ""
   }
 ]

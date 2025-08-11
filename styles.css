@@ -149,6 +149,7 @@ body {
 .qa-card__body .answer {
   margin: 0;
   color: var(--text);
+  white-space: pre-line; /* Preserve line breaks and wrap text */
 }
 
 /* Footer */
