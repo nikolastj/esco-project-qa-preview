@@ -147,9 +147,15 @@ body {
   line-height: 1.4;
 }
 .qa-card__body .answer {
-  margin: 0;
+  margin: 12px 0 0 0;
   color: var(--text);
   white-space: pre-line; /* Preserve line breaks and wrap text */
+  background: color-mix(in srgb, var(--accent) 5%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--accent) 15%, var(--border));
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
 /* Footer */
