@@ -1,23 +1,23 @@
 [
   {
     "name": "Mila Jovanović",
-    "question": "How can I structure a scalable frontend for a growing SPA?",
-    "answer": "Start with featurebased folders, shared UI primitives, strict typing, and a state strategy (signals/Rx/store). Add lint rules and CI to enforce boundaries. Prefer composition over inheritance."
+    "question": "How can I structure a scalable front-end for a growing SPA?",
+    "answer": "Start with feature based folders, shared UI primitives, strict typing, and a state strategy (signals/Rx/store). Add lint rules and CI to enforce boundaries. Prefer composition over inheritance."
   },
   {
     "name": "André Silva",
-    "question": "Whats the simplest way to add dark mode?",
-    "answer": "Use CSS variables with preferscolorscheme, then allow a manual override stored in localStorage. Toggle by swapping a data attribute on <html>."
+    "question": "What's the simplest way to add dark mode?",
+    "answer": "Use CSS variables with prefers-color-scheme, then allow a manual override stored in localStorage. Toggle by swapping a data attribute on <html>."
   },
   {
     "name": "Sara Petrović",
     "question": "Should I debounce or throttle search input?",
-    "answer": "Debounce for user typing (e.g., 250400 ms). Throttle for continuous events like scroll or resize. Measure and adjust."
+    "answer": "Debounce for user typing (e.g., 250-400 ms). Throttle for continuous events like scroll or resize. Measure and adjust."
   },
   {
     "name": "Kai Müller",
     "question": "How big should base font be for mobile readability?",
-    "answer": "Aim for 1718px base with 1.5+ line height; bump headings via clamp(). Always test on real devices."
+    "answer": "Aim for 17-18px base with 1.5+ line height; bump headings via clamp(). Always test on real devices."
   },
   {
     "name": "Anonymous",
