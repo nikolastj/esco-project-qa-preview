@@ -40,7 +40,7 @@ async function loadQA() {
   const tmpl = document.getElementById('qaCardTemplate');
 
   try {
-    const res = await fetch('data-v1.json', { cache: 'no-store' });
+    const res = await fetch('data-v2.json', { cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const items = await res.json();
 
